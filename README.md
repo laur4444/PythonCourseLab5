@@ -9,6 +9,17 @@
 
 `pygame.display.set_caption(‘Window Name’)`
 
+`pygame.display.update()`
+
+## User input
+
+`for event in pygame.event.get():`
+
+   `if event.type == KEYUP:`
+   
+      `if event.key == K_s:`
+       `// magic code`
+
 
 ## Color
 
